@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "AI Chatbot",
+    "slug": "ai-chatbot-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0F172A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.globalbuzz.aichatbot"
+    },
+    "android": {
+      "package": "com.globalbuzz.aichatbot"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
