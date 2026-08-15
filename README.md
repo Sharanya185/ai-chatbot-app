@@ -6,10 +6,9 @@ and the app shows loading and error states cleanly.
 
 ## Features
 
-- Clean, mobile-first chat UI (message bubbles, timestamps, auto-scroll)
+- Clean, mobile-first chat UI 
 - AI integration — works with **OpenAI** (`gpt-4o-mini`) or **Google Gemini**
-  (`gemini-1.5-flash`), switchable with one config line
-- Chat history persistence using `AsyncStorage` (survives app restarts)
+  (`gemini-2.5-flash`), switchable with one config line
 - Loading indicator (animated "typing" dots) while waiting for a reply
 - Error handling — network/API failures show an inline error banner instead
   of crashing the app
@@ -114,3 +113,12 @@ server-side instead.
 - No streaming responses (replies appear once fully generated, not
   token-by-token)
 - History is stored per-device only, not synced across devices
+
+
+## Development Note
+
+This project was built with the assistance of **Claude (Anthropic)** as an
+AI pair-programmer — used to scaffold the project structure, write the
+component/service code, debug Expo/Metro setup issues, and draft this
+README. All code was reviewed, tested, and run locally (via Expo Go) before
+submission.
